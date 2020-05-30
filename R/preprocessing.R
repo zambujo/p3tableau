@@ -150,6 +150,6 @@ p2 <- grantees %>%
 
 p2 %>%
   unnest(year) %>%
-  save(file = "data/p2.R")
+  save(file = "data/p2.rdata")
 # write_csv(path = "data/p2.csv")
 
